@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="crbd2_trainingdatasource" localizedName="Training data source" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Training data source" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="731800000" ExternalValue="">
+      <labels>
+        <label description="Initial" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="731800001" ExternalValue="">
+      <labels>
+        <label description="Missed" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

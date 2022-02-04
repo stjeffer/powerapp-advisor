@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="crbd2_matchedentity" localizedName="Matched entity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Matched entity" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="731800000" ExternalValue="">
+      <labels>
+        <label description="Dataverse" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="731800001" ExternalValue="">
+      <labels>
+        <label description="Dataverse for Teams" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="731800002" ExternalValue="">
+      <labels>
+        <label description="SharePoint" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="731800003" ExternalValue="">
+      <labels>
+        <label description="Dataverse security" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

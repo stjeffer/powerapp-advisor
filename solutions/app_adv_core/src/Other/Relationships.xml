@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_crbd2_appreviews" />
+  <EntityRelationship Name="business_unit_crbd2_knowledgerepository" />
+  <EntityRelationship Name="business_unit_crbd2_modeltrainingdata" />
+  <EntityRelationship Name="lk_crbd2_appreviews_createdby" />
+  <EntityRelationship Name="lk_crbd2_appreviews_modifiedby" />
+  <EntityRelationship Name="lk_crbd2_knowledgerepository_createdby" />
+  <EntityRelationship Name="lk_crbd2_knowledgerepository_modifiedby" />
+  <EntityRelationship Name="lk_crbd2_modeltrainingdata_createdby" />
+  <EntityRelationship Name="lk_crbd2_modeltrainingdata_modifiedby" />
+  <EntityRelationship Name="owner_crbd2_appreviews" />
+  <EntityRelationship Name="owner_crbd2_knowledgerepository" />
+  <EntityRelationship Name="owner_crbd2_modeltrainingdata" />
+  <EntityRelationship Name="team_crbd2_appreviews" />
+  <EntityRelationship Name="team_crbd2_knowledgerepository" />
+  <EntityRelationship Name="team_crbd2_modeltrainingdata" />
+  <EntityRelationship Name="user_crbd2_appreviews" />
+  <EntityRelationship Name="user_crbd2_knowledgerepository" />
+  <EntityRelationship Name="user_crbd2_modeltrainingdata" />
+</EntityRelationships>
