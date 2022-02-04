@@ -87,6 +87,7 @@
       <RootComponent type="20" id="{3ea7e316-a585-ec11-8d21-002248008596}" behavior="0" />
       <RootComponent type="62" schemaName="crbd2_PowerAppAdvisorAdmin" behavior="0" />
       <RootComponent type="80" schemaName="crbd2_PowerAppAdvisorAdmin" behavior="0" />
+      <RootComponent type="300" schemaName="crbd2_powerappsadvisor_07a1b" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>

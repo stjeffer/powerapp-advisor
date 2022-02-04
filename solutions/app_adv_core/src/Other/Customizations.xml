@@ -13,6 +13,7 @@
   <AppModuleSiteMaps />
   <AppModules />
   <EntityDataProviders />
+  <CanvasApps />
   <connectionreferences>
     <connectionreference connectionreferencelogicalname="crbd2_MicrosoftDataverse">
       <connectionreferencedisplayname>Microsoft Dataverse</connectionreferencedisplayname>
