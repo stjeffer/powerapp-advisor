@@ -84,7 +84,15 @@
       <RootComponent type="9" schemaName="crbd2_makerexperiencelevel" behavior="0" />
       <RootComponent type="9" schemaName="crbd2_matchedentity" behavior="0" />
       <RootComponent type="9" schemaName="crbd2_trainingdatasource" behavior="0" />
+      <RootComponent type="20" id="{3ea7e316-a585-ec11-8d21-002248008596}" behavior="0" />
+      <RootComponent type="62" schemaName="crbd2_PowerAppAdvisorAdmin" behavior="0" />
+      <RootComponent type="80" schemaName="crbd2_PowerAppAdvisorAdmin" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="crbd2_PowerAppAdvisorAdmin" displayName="Power App Advisor - Admin" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

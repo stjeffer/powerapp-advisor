@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{232c4e26-06e6-426d-90ff-6d6b68e27df8}" IsUserDefined="1">
           <labels>
@@ -22,7 +22,7 @@
                     <row>
                       <cell id="{3fdc8544-5ded-474b-bbcd-2f87bdf463ed}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Name" languagecode="1033" />
                         </labels>
                         <control id="crbd2_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crbd2_name" />
                       </cell>
@@ -30,9 +30,25 @@
                     <row>
                       <cell id="{5c960a28-71ac-41b9-91f6-f15b0ec94d01}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Owner" languagecode="1033" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b49230ae-78ca-47d7-9135-2147892ac394}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Model training data" languagecode="1033" />
+                        </labels>
+                        <control id="crbd2_modeltrainingdata" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crbd2_modeltrainingdata" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2abe8a2-10a9-47e4-bee5-8c376bccf32b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Matched entity" languagecode="1033" />
+                        </labels>
+                        <control id="crbd2_matchedentity" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="crbd2_matchedentity" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -42,6 +58,51 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{cbd4c1e8-206d-4e77-9fed-260abbddf48a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f29ec62a-39a6-40da-b2be-8081645e5558}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f0f55d4c-e7fd-44c9-bd2f-cc254c2b492a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e2661dcb-9f25-45ed-83a5-d233c689e3f1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{545b1461-5fd2-4f7f-af75-b7bf3ca9cb43}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{65bbd87c-57d5-4b9e-8430-881fcb14df12}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{15c6b653-6df7-489d-b67a-56a895553636}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{638d4b34-f576-42b5-afa6-190eaa1de34c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

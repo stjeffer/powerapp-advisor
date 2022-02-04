@@ -22,7 +22,7 @@
                     <row>
                       <cell id="{dc17f3f4-99d7-4364-acfd-f59b9e9790de}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Name" languagecode="1033" />
                         </labels>
                         <control id="crbd2_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crbd2_name" />
                       </cell>
@@ -30,9 +30,25 @@
                     <row>
                       <cell id="{13d70717-f9f7-4774-a867-9a0eb9e54137}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Owner" languagecode="1033" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a47759eb-88d1-42f2-ba60-14d8c660b0da}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Model training data" languagecode="1033" />
+                        </labels>
+                        <control id="crbd2_modeltrainingdata" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crbd2_modeltrainingdata" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{077bc7d8-7001-44cf-8302-1a8414d22243}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Matched entity" languagecode="1033" />
+                        </labels>
+                        <control id="crbd2_matchedentity" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="crbd2_matchedentity" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -42,6 +58,9 @@
           </columns>
         </tab>
       </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

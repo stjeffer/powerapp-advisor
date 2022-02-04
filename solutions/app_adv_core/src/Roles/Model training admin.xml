@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{3ea7e316-a585-ec11-8d21-002248008596}" name="Model training admin" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendcrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvAppendTocrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvAssigncrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvCreatecrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeletecrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvReadcrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvSharecrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvWritecrbd2_Modeltrainingdata" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>
