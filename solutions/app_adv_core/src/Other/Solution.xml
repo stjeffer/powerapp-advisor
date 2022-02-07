@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22012.136" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22013.136" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>app_adv_core</UniqueName>
     <LocalizedNames>
@@ -85,6 +85,7 @@
       <RootComponent type="9" schemaName="crbd2_matchedentity" behavior="0" />
       <RootComponent type="9" schemaName="crbd2_trainingdatasource" behavior="0" />
       <RootComponent type="20" id="{3ea7e316-a585-ec11-8d21-002248008596}" behavior="0" />
+      <RootComponent type="29" id="{ad679d0a-fc87-ec11-93b0-002248003b40}" behavior="0" />
       <RootComponent type="62" schemaName="crbd2_PowerAppAdvisorAdmin" behavior="0" />
       <RootComponent type="80" schemaName="crbd2_PowerAppAdvisorAdmin" behavior="0" />
       <RootComponent type="300" schemaName="crbd2_powerappsadvisor_07a1b" behavior="0" />
