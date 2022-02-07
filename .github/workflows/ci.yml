@@ -34,7 +34,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: app_adv_core.zip
-          path: out
+          path: solutions/out
           
       
       
