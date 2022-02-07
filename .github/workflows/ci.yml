@@ -27,14 +27,14 @@ jobs:
       # Pack to solution file
       - uses: microsoft/powerplatform-actions/pack-solution@0.4.3
         with:      
-          solution-file: app_adv_core.zip
+          solution-file: packed-solutions/app_adv_core.zip
           solution-folder: solutions/app_adv_core/src
           solution-type: Both
       # Upload artifact
       - uses: actions/upload-artifact@v2
         with:
-          name: app_adv_core.zip
-          path: solutions/out/app_adv_core.zip
+          name: packed-solutions
+          path: packed-solutions
           
       
       
