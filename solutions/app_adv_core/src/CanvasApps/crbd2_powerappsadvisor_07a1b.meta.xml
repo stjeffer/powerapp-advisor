@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>crbd2_powerappsadvisor_07a1b</Name>
-  <AppVersion>2022-02-08T09:50:10Z</AppVersion>
+  <AppVersion>2022-02-08T10:51:01Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22014.14.0</CreatedByClientVersion>
   <MinClientVersion>3.22014.14.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1000","primaryDeviceHeight":"768","sienaVersion":"6266d46a-8478-4032-938f-51d82313aac0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22014.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"230","primaryDeviceHeight":"230","sienaVersion":"c8f493c0-1307-4b0d-ac39-4298b63be4fb","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22014.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
