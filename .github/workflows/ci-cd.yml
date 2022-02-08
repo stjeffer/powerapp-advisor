@@ -1,0 +1,37 @@
+name: CI / CD
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+      - uses: microsoft/powerplatform-actions/pack-solution@0.4.3
+        with:
+          solution-file: packed-solutions/app_adv_core.zip
+          solution-folder: solutions/app_adv_core/src
+          solution-type: Both
+      - uses: actions/upload-artifact@v2
+        with:
+          name: packed-solutions
+          path: packed-solutions
+  deploy:
+    environment: testing
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/download-artifact@v2
+        with:
+          name: packed-solutions
+      - uses: microsoft/powerplatform-actions/import-solution@v0
+        with: 
+          environment-url: ${{ secrets.URL }}
+          app-id: ${{ secrets.CLIENT_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-file: app_adv_core_managed.zip
