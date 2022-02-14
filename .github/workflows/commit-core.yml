@@ -1,0 +1,26 @@
+name: Commit core
+
+on:
+  workflow_dispatch:
+    inputs: 
+      message:
+        default: Automated commit
+        description: Message for commit
+        required: true
+    
+jobs:
+  export-unpack-commit:
+    environment: dev-core
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.SJ_GITHUB_TOKEN }}
+      - uses: microsoft/powerplatform-actions/export-solution@v0
+        with: 
+          environment-url:
+          app-id:
+          client-secret:
+          tenant-id:
+          solution-name:
+          solution-output-file:
